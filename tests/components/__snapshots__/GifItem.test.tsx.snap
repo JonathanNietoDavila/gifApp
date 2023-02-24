@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Pruebas en GifItem should first 1`] = `
+exports[`Pruebas en GifItem snapshot 1`] = `
 <div>
   <section
     class="card"

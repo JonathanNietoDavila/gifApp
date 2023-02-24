@@ -1,4 +1,5 @@
-import { Datum, Welcome } from "../models/GifResponse"
+import 'whatwg-fetch'
+import { Datum, Welcome } from '../models/GifResponse'
 
 export const getGifs = async (category: string) => {
     const url = `https://api.giphy.com/v1/gifs/search?api_key=eYefR1oE4myVOBUHFK4Hd7RlD6acqRLF&q=${category}&limit=10`
